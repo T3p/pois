@@ -43,3 +43,20 @@ python run_rllab.py
 ```
 
 This should run pois1 (action-based POIS for CPU) on the 'cartpole' environment (rllab version)
+
+## Full install
+
+## Citing
+To cite the POIS paper:
+
+    @misc{metelli2018policy,
+      title={Policy Optimization via Importance Sampling},
+      author={Alberto Maria Metelli and Matteo Papini and Francesco Faccio and Marcello Restelli},
+      year={2018},
+      eprint={1809.06098},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+    }
+    
+ ## Acknoledgements
+ The gpu-optimized version of POIS was developed by [Nico Montali](https://github.com/nicomon24), who also contributed to the overall refining of the code.
