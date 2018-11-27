@@ -42,7 +42,7 @@ cd pois1
 python run_rllab.py
 ```
 
-This should run pois1 (action-based POIS for CPU) on the 'cartpole' environment (rllab version)
+This should run pois1 (action-based POIS for CPU) on the 'cartpole' environment (rllab version).
 
 ## Full install (tested on Ubuntu 16.04)
 First, you will need **python3** (>=3.5) and your favourite **tensorflow** version (tested with python 3.5.2 and tensorflow 1.12.0).
@@ -58,7 +58,7 @@ cd pois
 pip install -e .
 ```
 
-If you want to test pois on rllab environments, you also need to install rllab
+If you want to test pois on rllab environments, you also need to install rllab:
 
 ```bash
 git clone https://github.com/rll/rllab
