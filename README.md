@@ -1,3 +1,4 @@
+<img src="data/logo.png" width=25% align="right" />
 
 # POIS (NeurIPS 2018)
 
