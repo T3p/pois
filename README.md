@@ -3,16 +3,16 @@
 # POIS (NeurIPS 2018)
 
 This repository contains the implementation of the [POIS algorithm](https://arxiv.org/abs/1809.06098).
-It is based on the OpenAI [baselines](https://github.com/openai/baselines) implementation, and uses the same implementation backbone.
-We are working on synchronising this repository to the current version of OpenAI baselines.
+Click [here](https://t3p.github.io/NIPS/) for more info about our NeurIPS 2018 paper.
+
+The implementation is based on OpenAI [baselines](https://github.com/openai/baselines).
+We are working on synchronising this repository to the current version of baselines.
 
 ## What's new
 We provide 3 different flavours of the POIS algorithm:
 - **POIS1**: control-based POIS (cpu)
 - **POIS2**: control-based POIS (gpu optimized, used in complex environments or complex policies)
 - **PBPOIS**: parameter-based POIS (cpu)
-
-You can find more info about the POIS paper [here](https://t3p.github.io/NIPS/)
 
 ## Minimal install with Docker
 To test POIS on classic control environments within minutes, you can build a Docker image. This solution does not support Mujoco environments.
@@ -41,4 +41,4 @@ cd pois1
 python run_rllab.py
 ```
 
-This should run pois1 (action-based POIS for CPU) on the cartpole environment (rllab version)
+This should run pois1 (action-based POIS for CPU) on the 'cartpole' environment (rllab version)
