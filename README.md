@@ -11,6 +11,7 @@ We provide 3 different flavours of the POIS algorithm:
 - **POIS1**: control-based POIS (cpu)
 - **POIS2**: control-based POIS (gpu optimized, used in complex environments or complex policies)
 - **PBPOIS**: parameter-based POIS (cpu)
+You can find more info about the POIS paper [here](https://t3p.github.io/NIPS/)
 
 ## Minimal install with Docker
 To test POIS on classic control environments within minutes, you can build a Docker image. This solution does not support Mujoco environments.
