@@ -55,7 +55,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--seed', help='RNG seed', type=int, default=0)
-    parser.add_argument('--env', type=str, default='cartpole')
+    parser.add_argument('--env', type=str, default='MountainCarContinuous-v0')
     parser.add_argument('--num_episodes', type=int, default=100)
     parser.add_argument('--horizon', type=int, default=500)
     parser.add_argument('--iw_method', type=str, default='is')

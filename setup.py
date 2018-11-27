@@ -10,7 +10,7 @@ setup(name='baselines',
       packages=[package for package in find_packages()
                 if package.startswith('baselines')],
       install_requires=[
-          'gym[mujoco,atari,classic_control]',
+	  'gym[classic_control]',
           'scipy',
           'tqdm',
           'joblib',
@@ -20,8 +20,8 @@ setup(name='baselines',
           'progressbar2',
           'mpi4py',
       ],
-      description="OpenAI baselines: high quality implementations of reinforcement learning algorithms",
-      author="OpenAI",
-      url='https://github.com/openai/baselines',
-      author_email="gym@openai.com",
-      version="0.1.4")
+      description="POIS implementation based on openai/baselines",
+      author="A. M. Metelli, M. Papini, N. Montali, F. Faccio, M. Restelli",
+      url='https://github.com/T3p/pois',
+      author_email="matteo.papini@polimi.it",
+      version="0.1.1")
