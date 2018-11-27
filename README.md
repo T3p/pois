@@ -93,4 +93,4 @@ To cite the POIS paper:
     }
     
  ## Acknowledgements
- The gpu-optimized version of POIS was developed by [Nico Montali](https://github.com/nicomon24), who also contributed to the overall refining of the code.
+ The gpu-optimized version of POIS was developed by [Nico Montali](https://github.com/nicomon24), who also contributed to the overall refactoring of the code.
