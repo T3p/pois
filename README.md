@@ -16,6 +16,7 @@ We provide 3 different flavours of the POIS algorithm:
 
 ## Minimal install with Docker
 To test POIS on classic control environments within minutes, you can build a Docker image. This solution does not support Mujoco environments.
+
 First, you need to [install Docker](https://docs.docker.com/get-started/#prepare-your-docker-environment). 
 Then, clone the repository and build the image:
 
