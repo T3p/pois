@@ -10,9 +10,9 @@ We are working on synchronising this repository to the current version of baseli
 
 ## What's new
 We provide 3 different flavours of the POIS algorithm:
-- **POIS1**: control-based POIS (cpu)
-- **POIS2**: control-based POIS (gpu optimized, used in complex environments or complex policies)
-- **PBPOIS**: parameter-based POIS (cpu)
+- **pois1**: control-based POIS (cpu)
+- **pois2**: control-based POIS (gpu optimized, used in complex environments or complex policies)
+- **pbpois**: parameter-based POIS (cpu)
 
 ## Minimal install with Docker
 To test POIS on classic control environments within minutes, you can build a Docker image. This solution does not support Mujoco environments.
@@ -44,7 +44,29 @@ python run_rllab.py
 
 This should run pois1 (action-based POIS for CPU) on the 'cartpole' environment (rllab version)
 
-## Full install
+## Full install (tested on Ubuntu 16.04)
+First, you will need **python3** (>=3.5) and your favourite **tensorflow** version (tested with python 3.5.2 and tensorflow 1.12.0).
+To use pois2, you will need a version of [tensorflow with gpu support](https://www.tensorflow.org/install/gpu).
+
+To install pois with all the necessary requirements:
+
+```bash
+git clone https://github.com/T3p/pois
+apt-get update
+apt-get install ffmpeg git wget python-dev python3-dev libopenmpi-dev python-pip zlib1g-dev cmake python-opencv swig
+cd pois
+pip install -e .
+```
+
+If you want to test pois on rllab environments, you also need to install rllab
+
+```bash
+git clone https://github.com/rll/rllab
+cd rllab
+pip install -e .
+```
+
+To test on [MuJoCo](http://www.mujoco.org) environments, you need a MuJoCo license. Instructions on setting up MuJoCo can be found [here](https://github.com/openai/mujoco-py).
 
 ## Citing
 To cite the POIS paper:
@@ -58,5 +80,5 @@ To cite the POIS paper:
       primaryClass={cs.LG}
     }
     
- ## Acknoledgements
+ ## Acknowledgements
  The gpu-optimized version of POIS was developed by [Nico Montali](https://github.com/nicomon24), who also contributed to the overall refining of the code.
