@@ -71,16 +71,16 @@ To test on [MuJoCo](http://www.mujoco.org) environments, you need a MuJoCo licen
 ## Citing
 To cite the POIS paper:
 
-@incollection{NIPS2018_7789,
-    title = {Policy Optimization via Importance Sampling},
-    author = {},
-    booktitle = {Advances in Neural Information Processing Systems 31},
-    editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
-    pages = {5443--5455},
-    year = {2018},
-    publisher = {Curran Associates, Inc.},
-    url = {http://papers.nips.cc/paper/7789-policy-optimization-via-importance-sampling.pdf}
-}
+    @incollection{NIPS2018_7789,
+        title = {Policy Optimization via Importance Sampling},
+        author = {},
+        booktitle = {Advances in Neural Information Processing Systems 31},
+        editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+        pages = {5443--5455},
+        year = {2018},
+        publisher = {Curran Associates, Inc.},
+        url = {http://papers.nips.cc/paper/7789-policy-optimization-via-importance-sampling.pdf}
+    }
     
  ## Acknowledgements
  The gpu-optimized version of POIS was developed by [Nico Montali](https://github.com/nicomon24), who also contributed to the overall refining of the code.
