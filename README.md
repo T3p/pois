@@ -73,7 +73,7 @@ To cite the POIS paper:
 
     @incollection{NIPS2018_7789,
         title = {Policy Optimization via Importance Sampling},
-        author = {},
+        author = {Metelli, Alberto Maria and Papini, Matteo and Faccio, Francesco and Restelli, Marcello},
         booktitle = {Advances in Neural Information Processing Systems 31},
         editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
         pages = {5443--5455},
