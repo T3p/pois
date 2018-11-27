@@ -68,6 +68,16 @@ pip install -e .
 
 To test on [MuJoCo](http://www.mujoco.org) environments, you need a MuJoCo license. Instructions on setting up MuJoCo can be found [here](https://github.com/openai/mujoco-py).
 
+## Usage
+Scripts for running the algorithms on gym and rllab environments can be found under the algorithms folders. The scripts accept a large number of optional command-line arguments. Typical usage is:
+
+```bash
+python run_[gym | rllab].py --env [environment name] --seed [random seed] --policy [nn | linear]
+```
+The results are saved in csv and tensorboard formats under the ./logs directory.
+
+The repository also ships with some original baselines algorithms for comparison, namely TRPO and PPO.
+
 ## Citing
 To cite the POIS paper:
 
