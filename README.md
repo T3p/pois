@@ -94,3 +94,7 @@ To cite the POIS paper:
     
  ## Acknowledgements
  The gpu-optimized version of POIS was developed by [Nico Montali](https://github.com/nicomon24), who also contributed to the overall refactoring of the code.
+
+## Trivia
+"Pois", pronounced **/pwa/**, means "polka dots" in Italian. The word derives from the French expression "à pois", which means "dotted".
+If you like the style, check out this [Polka Dot Pattern Generator](https://rdyar.gitlab.io/background-generator/background-generators/polka-dot-pattern-generator/) by Ron Dyar.
