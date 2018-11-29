@@ -13,7 +13,7 @@ We provide 4 different flavours of the POIS algorithm:
 - **pois1**: action-based POIS
 - **pois2**: action-based POIS (gpu optimized)
 - **pbpois**: parameter-based POIS
-- **nbpois** a version of parameter-based pois specifically thought for deep neural policies
+- **nbpois** a variant of parameter-based pois specifically thought for deep neural policies
 
 ## Minimal install with Docker
 To test POIS on classic control environments within minutes, you can build a Docker image. This solution does not support Mujoco environments.
