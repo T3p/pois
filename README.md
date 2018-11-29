@@ -9,10 +9,11 @@ The implementation is based on OpenAI [baselines](https://github.com/openai/base
 We are working on synchronising this repository to the current version of baselines.
 
 ## What's new
-We provide 3 different flavours of the POIS algorithm:
-- **pois1**: control-based POIS (cpu)
-- **pois2**: control-based POIS (gpu optimized)
-- **pbpois**: parameter-based POIS (cpu)
+We provide 4 different flavours of the POIS algorithm:
+- **pois1**: action-based POIS
+- **pois2**: action-based POIS (gpu optimized)
+- **pbpois**: parameter-based POIS
+- **nbpois** a version of parameter-based pois specifically thought for deep neural policies
 
 ## Minimal install with Docker
 To test POIS on classic control environments within minutes, you can build a Docker image. This solution does not support Mujoco environments.
@@ -69,7 +70,7 @@ pip install -e .
 To test on [MuJoCo](http://www.mujoco.org) environments, you need a MuJoCo license. Instructions on setting up MuJoCo can be found [here](https://github.com/openai/mujoco-py).
 
 ## Usage
-Scripts for running the algorithms on gym and rllab environments can be found under the algorithms folders. The scripts accept a large number of optional command-line arguments. Typical usage is:
+Scripts for running the algorithms on gym and rllab environments can be found under the algorithms folders (nbpois is under the pbpois folder). The scripts accept a large number of optional command-line arguments. Typical usage is:
 
 ```bash
 python run_[gym | rllab].py --env [environment name] --seed [random seed] --policy [nn | linear]
