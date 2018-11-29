@@ -11,7 +11,7 @@ We are working on synchronising this repository to the current version of baseli
 ## What's new
 We provide 3 different flavours of the POIS algorithm:
 - **pois1**: control-based POIS (cpu)
-- **pois2**: control-based POIS (gpu optimized, used in complex environments or complex policies)
+- **pois2**: control-based POIS (gpu optimized)
 - **pbpois**: parameter-based POIS (cpu)
 
 ## Minimal install with Docker
