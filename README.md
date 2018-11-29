@@ -3,7 +3,7 @@
 # POIS (NeurIPS 2018)
 
 This repository contains the implementation of the [POIS algorithm](https://arxiv.org/abs/1809.06098).
-Click [here](https://t3p.github.io/NeurIPS18/) for more info about our NeurIPS 2018 paper.
+Click [here](https://t3p.github.io/neurips18/) for more info about our NeurIPS 2018 paper.
 
 The implementation is based on OpenAI [baselines](https://github.com/openai/baselines).
 We are working on synchronising this repository to the current version of baselines.
@@ -21,7 +21,7 @@ First, you need to [install Docker](https://docs.docker.com/get-started/#prepare
 Then, clone the repository and build the image:
 
 ```bash
-git clone https://github.com/T3p/neurips18
+git clone https://github.com/T3p/pois
 cd pois
 docker build -t pois .
 ```
