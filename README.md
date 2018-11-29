@@ -21,7 +21,7 @@ First, you need to [install Docker](https://docs.docker.com/get-started/#prepare
 Then, clone the repository and build the image:
 
 ```bash
-git clone https://github.com/T3p/pois
+git clone https://github.com/T3p/neurips18
 cd pois
 docker build -t pois .
 ```
