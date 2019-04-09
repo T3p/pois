@@ -1,6 +1,4 @@
 import sys
-sys.path.append('/home/alberto/rllab')
-
 import rllab
 from rllab.envs.normalized_env import normalize
 import gym
